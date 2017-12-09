@@ -7,8 +7,8 @@ const app = express();
 app.use(cors());
 
 const nexmoConfig = new nexmo({
-  apiKey: '4d2998eb',
-  apiSecret: 'f6a24a45f2586e24',
+  apiKey: 'YOUR-API-KEY',
+  apiSecret: 'YOUR-API-SECRET',
 });
 
 const from = 'YOUR-VIRTUAL-NUMBER';
